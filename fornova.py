@@ -1,15 +1,15 @@
 import json
-from typing import Dict, List, Tuple, Union
+from typing import Dict, List, Tuple, Union, Optional, Any
 
 
-def load_data(file_path: str) -> json:
+def load_data(file_path: str) -> Any:
     """Loading data from a JSON file."""
 
     with open(file_path, "r") as file:
         return json.load(file)
 
 
-def find_cheapest_room(shown_price: Dict[str, Union[str, float]]) -> Tuple[str, float]:
+def find_cheapest_room(shown_price: Dict[str, Union[str, float]]) -> Tuple[Optional[str], Optional[float]]:
     """Finding a room with the lowest price."""
 
     if not shown_price:

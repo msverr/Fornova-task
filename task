@@ -1,0 +1,8 @@
+Download and load the above JSON file into your local environment (Pycharm etc.) and manipulate trying to find the following:
+a. Find and return the cheapest (lowest) shown price (Please avoid using the minimum function)
+b. Find and return the room type, number of guest with the cheapest price 
+c. Print the total price (Net price + taxes) for all rooms along with the room type
+d. Please add your output to a file
+e. Please make sure to document your code
+
+f. Upload the script into Github (We expect to have the correct Python file) and share the link with us via Email.
